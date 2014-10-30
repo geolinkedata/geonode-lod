@@ -30,7 +30,7 @@ INSTALLED_APPS += (
     'rest_framework_swagger',
     'provider',
     'provider.oauth2',
-    'django-oaks-rest-api',
+    'oaks_rest_api',
     'corsheaders',
 )
 
