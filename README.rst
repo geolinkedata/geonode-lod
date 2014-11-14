@@ -55,12 +55,12 @@ Install oaks_geonode with::
    git submodule init
 
    git submodule update
-
-   cd ..
-
+   
    python manage.py syncdb
  
    python manage.py collectstatic
+   
+   cd ..
    
    sudo pip install -e oaks_geonode
 
