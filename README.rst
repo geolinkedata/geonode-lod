@@ -77,7 +77,7 @@ Edit the file /etc/apache2/sites-available/geonode and change the following dire
 
 to:
 
-    WSGIScriptAlias / /var/www/oaks_geonode/oaks_geonode/wsgi/wsgi.py
+    WSGIScriptAlias / /var/www/oaks_geonode/oaks_geonode/wsgi.py
 
 Restart apache::
 
