@@ -102,8 +102,8 @@ EMAIL_PORT = 587
 
 
 #dirs for upload and storing files
-UPLOAD_SHAPE = '/tmp/shapes'
-UPLOAD_TRIPLE_STORE = '/tmp/triple-stores'
+UPLOAD_SHAPE = '/var/www/oaks-data/shapes'
+UPLOAD_TRIPLE_STORE = '/var/www/oaks-data/triple-stores'
 
 
 #oaks_node settings

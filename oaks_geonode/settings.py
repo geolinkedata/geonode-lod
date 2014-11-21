@@ -67,7 +67,7 @@ LOCAL_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/tmp'
+MEDIA_ROOT = '/var/www/oaks-data'
 
 WSGI_APPLICATION = "oaks_geonode.wsgi.application"
 
