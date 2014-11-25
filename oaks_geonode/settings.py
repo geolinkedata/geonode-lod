@@ -49,15 +49,7 @@ DATABASES = {
         'PASSWORD': 'ÇÄüÞÈLÁ8',
         'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '5432',                      # Set to empty string for default.
-    },
-   'geonode_imports' : {
-       'ENGINE': 'django.contrib.gis.db.backends.postgis',
-       'NAME': 'geonode-imports',
-       'USER' : 'geonode',
-       'PASSWORD' : 'ÇÄüÞÈLÁ8',
-       'HOST' : 'localhost',
-       'PORT' : '5432',
-   }
+    }
 }
 
 
@@ -71,9 +63,12 @@ MEDIA_ROOT = '/var/www/oaks-data'
 
 WSGI_APPLICATION = "oaks_geonode.wsgi.application"
 
+
+
+
 # Additional directories which hold static files
 STATICFILES_DIRS.append(
-    os.path.join(LOCAL_ROOT, "static"),
+    os.path.join(LOCAL_ROOT, "static")
 )
 
 # Note that Django automatically includes the "templates" dir in all the

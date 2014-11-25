@@ -99,8 +99,6 @@ EMAIL_PORT = 587
 # https://docs.djangoproject.com/en/dev/ref/settings
 
 
-
-
 #dirs for upload and storing files
 UPLOAD_SHAPE = '/var/www/oaks-data/shapes'
 UPLOAD_TRIPLE_STORE = '/var/www/oaks-data/triple-stores'
