@@ -43,10 +43,8 @@ Install `Django rest swagger <https://github.com/pcasciano/django-rest-swagger>`
 
     git clone https://github.com/pcasciano/django-rest-swagger.git
     
-    cd django-rest-swagger
-    
-    python setup.py install
-     
+    pip install -e django-rest-swagger
+         
      
 Installation
 ------------
