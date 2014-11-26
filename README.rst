@@ -35,13 +35,19 @@ Install others django packages with::
 
     pip install djangorestframework
 
-    pip install django-rest-swagger
-
     pip install django-cors-headers
 
 Install `oaks_node <https://github.com/pcasciano/oaks_node>`_ following `oaks_node readme <https://github.com/pcasciano/oaks_node/blob/master/README.md>`_
 
+Install rest swgger with::
 
+    git clone https://github.com/pcasciano/django-rest-swagger.git
+    
+    cd django-rest-swagger
+    
+    python setup.py install
+     
+     
 Installation
 ------------
 Install oaks_geonode with::
