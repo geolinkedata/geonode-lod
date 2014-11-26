@@ -34,17 +34,14 @@ Install others django packages with::
     pip install django-oauth2-provider
 
     pip install djangorestframework
+    
+    pip install django-rest-swagger
 
     pip install django-cors-headers
 
 Install `oaks_node <https://github.com/pcasciano/oaks_node>`_ following `oaks_node readme <https://github.com/pcasciano/oaks_node/blob/master/README.md>`_
 
-Install `Django rest swagger <https://github.com/pcasciano/django-rest-swagger>`_ with::
-
-    git clone https://github.com/pcasciano/django-rest-swagger.git
-    
-    pip install -e django-rest-swagger
-         
+        
      
 Installation
 ------------
