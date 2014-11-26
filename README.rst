@@ -39,7 +39,7 @@ Install others django packages with::
 
 Install `oaks_node <https://github.com/pcasciano/oaks_node>`_ following `oaks_node readme <https://github.com/pcasciano/oaks_node/blob/master/README.md>`_
 
-Install rest swagger with::
+Install `Django rest swagger <https://github.com/pcasciano/django-rest-swagger>`_ with::
 
     git clone https://github.com/pcasciano/django-rest-swagger.git
     
