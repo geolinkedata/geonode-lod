@@ -103,6 +103,7 @@ EMAIL_PORT = 587
 BASE_STORAGE = '/var/www/oaks-data/'
 UPLOAD_SHAPE = 'shapes'
 UPLOAD_TRIPLE_STORE = 'triple-stores'
+ZIP_DIR = 'zip'
 
 
 #oaks_node settings
