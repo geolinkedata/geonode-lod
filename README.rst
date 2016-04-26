@@ -1,13 +1,13 @@
-Oaks_Appgeonode
+GeoLinkeData GeoNode App
 ========================
 
-Geonode custom app for Oaks project.
-
+GeoNode custom app for GeoLinkeData project.
 
 Requirements
 ------------
+
 It requires Geonode, django-rest-framework, rest_framework_swagger,
-django-oauth2-provider, django-cors-headers and oaks_node .
+django-oauth2-provider, django-cors-headers and orchestrator .
 
 Install geonode with::
 
@@ -39,19 +39,17 @@ Install others django packages with::
 
     pip install django-cors-headers
 
-Install `oaks_node <https://github.com/pcasciano/oaks_node>`_ following `oaks_node readme <https://github.com/pcasciano/oaks_node/blob/master/README.md>`_
-
-        
+Install `orchestrator <https://github.com/geolinkedata/orchestrator>`_ following `orchestrator readme <https://github.com/geolinkedata/orchestrator/blob/master/README.md>`_       
      
 Installation
 ------------
-Install oaks_geonode with::
+Install geonode-lod with::
 
    cd /var/www
 
-   git clone https://github.com/pcasciano/oaks_geonode.git
+   git clone https://github.com/geolinkedata/geonode-lod.git
 
-   cd oaks_geonode
+   cd geonode-lod
 
    git submodule init
 
@@ -63,9 +61,7 @@ Install oaks_geonode with::
    
    cd ..
    
-   sudo pip install -e oaks_geonode
-
-
+   sudo pip install -e geonode-lod
 
 Usage
 -----
@@ -78,14 +74,13 @@ Edit the file /etc/apache2/sites-available/geonode and change the following dire
 
 to:
 
-    WSGIScriptAlias / /var/www/oaks_geonode/oaks_geonode/wsgi.py
+    WSGIScriptAlias / /var/www/geonode-lod/geolinkedata/wsgi.py
 
 Restart apache::
 
      sudo service apache2 restart
 
-
-Your oaks_geonode app URL is http://localhost
+Your geonode-lod app URL is http://localhost
 
 
 

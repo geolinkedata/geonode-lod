@@ -30,7 +30,7 @@ INSTALLED_APPS += (
     'rest_framework_swagger',
     'provider',
     'provider.oauth2',
-    'oaks_rest_api',
+    'api',
     'corsheaders',
     'haystack'
 )
@@ -39,7 +39,7 @@ MIDDLEWARE_CLASSES += (
     'corsheaders.middleware.CorsMiddleware',
 )
 
-SITENAME = 'oaks_geonode'
+SITENAME = 'geolinkedata'
 
 DATABASES = {
     'default': {
@@ -69,9 +69,9 @@ LOCAL_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/var/www/oaks-data'
+MEDIA_ROOT = '/var/www/geolinkedata-data'
 
-WSGI_APPLICATION = "oaks_geonode.wsgi.application"
+WSGI_APPLICATION = "geolinkedata.wsgi.application"
 
 
 
@@ -88,7 +88,7 @@ TEMPLATE_DIRS = (
 ) + TEMPLATE_DIRS
 
 # Location of url mappings
-ROOT_URLCONF = 'oaks_geonode.urls'
+ROOT_URLCONF = 'geolinkedata.urls'
 
 # Location of locale files
 LOCALE_PATHS = (
