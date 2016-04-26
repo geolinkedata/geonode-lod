@@ -1,3 +1,3 @@
-[submodule "oaks_rest_api"]
-	path = oaks_rest_api
-	url = https://github.com/pcasciano/oaks_rest_api.git
+[submodule "api"]
+	path = api
+	url = https://github.com/geolinkedata/api.git
