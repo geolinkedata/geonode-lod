@@ -53,7 +53,7 @@ Install geonode-lod with::
 
    git submodule init
 
-   git submodule update
+   git submodule update --remote
    
    python manage.py syncdb
  
